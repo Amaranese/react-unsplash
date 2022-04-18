@@ -1,0 +1,34 @@
+{
+  "name": "react-unsplash",
+  "version": "1.0.0",
+  "description": "A sample unsplash clone with react",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build src/index.html --out-dir public",
+    "dev": "parcel src/index.html --open",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "clear": "rm -rf dist/ .cache/",
+    "lint": "eslint **/*.{js,jsx} --quiet"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aphrodite": "^2.4.0",
+    "parcel-bundler": "^1.12.5",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-responsive-masonry": "^2.1.4"
+  },
+  "devDependencies": {
+    "axios": "^0.26.1",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
+    "postcss-modules": "^4.3.1",
+    "prettier": "^2.6.2",
+    "react-router-dom": "^6.3.0",
+    "unsplash-js": "^7.0.15"
+  }
+}
